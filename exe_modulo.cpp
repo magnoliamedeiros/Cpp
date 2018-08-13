@@ -10,4 +10,6 @@ int main(){
   int modulo = valor1 % valor2;
 
   cout << "O resultado do módulo deve ser: " << modulo;
+  
+  return 0;
 }
