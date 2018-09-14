@@ -13,11 +13,16 @@ struct funcionario{
 int main(){
 
     // declarando um registro e atribuindo valores ao mesmo
-    struct funcionario estagiario = {"Márcio", 23, "Finanças"};
+    struct funcionario f1 = {"Márcio", 23, "Finanças"};
+    struct funcionario f2 = {"José", 35, "Contabilidade"};
 
     // exibindo os valores
-    cout << "Nome: "<< estagiario.nome << "\n";
-    cout << "Idade: " << estagiario.idade << "\n";
-    cout << "Setor: " << estagiario.setor << "\n";
+    cout << "Nome: " << f1.nome << "\n";
+    cout << "Idade: " << f1.idade << "\n";
+    cout << "Setor: " << f1.setor << "\n\n";
+
+    cout << "Nome: " << f2.nome << "\n";
+    cout << "Idade: " << f2.idade << "\n";
+    cout << "Setor: " << f2.setor << "\n";
     return 0;
 }
