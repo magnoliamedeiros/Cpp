@@ -17,5 +17,5 @@ int main(){
     cout << "Nome: "<< estagiario.nome << "\n";
     cout << "Idade: " << estagiario.idade << "\n";
     cout << "Profissão: " << estagiario.profissao << "\n";
-     return 0;
+    return 0;
 }
