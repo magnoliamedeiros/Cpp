@@ -18,6 +18,6 @@ int main(){
     // exibindo os valores
     cout << "Nome: "<< estagiario.nome << "\n";
     cout << "Idade: " << estagiario.idade << "\n";
-    cout << "Seotr: " << estagiario.profissao << "\n";
+    cout << "Setor: " << estagiario.setor << "\n";
     return 0;
 }
