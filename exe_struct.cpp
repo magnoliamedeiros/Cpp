@@ -1,21 +1,23 @@
 #include<iostream>
 using namespace std;
+
+/* structs em C++ são usados para armazenar diversas variáveis
+correspondentes a um mesmo elemento.
+*/
+struct funcionario{
+    string nome;
+    int idade;
+    string setor;
+};
+
 int main(){
-     /* structs em C++ são usados para armazenar diversas variáveis
-     correspondentes a um mesmo elemento.
-     */
-    struct funcionario{
-         string nome;
-         int idade;
-         string profissao;
-    };
 
-    // declarando um registro e atribuindo valores a ele
-    struct funcionario estagiario = {"Márcio", 23, "Pintor"};
+    // declarando um registro e atribuindo valores ao mesmo
+    struct funcionario estagiario = {"Márcio", 23, "Finanças"};
 
-    // acessando valor
+    // exibindo os valores
     cout << "Nome: "<< estagiario.nome << "\n";
     cout << "Idade: " << estagiario.idade << "\n";
-    cout << "Profissão: " << estagiario.profissao << "\n";
+    cout << "Seotr: " << estagiario.profissao << "\n";
     return 0;
 }
