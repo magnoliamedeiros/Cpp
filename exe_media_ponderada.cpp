@@ -1,27 +1,56 @@
 #include <iostream>
-
 using namespace std;
+
+// Assinatura do método
+void mediaPonderada(float nota1, float nota2, float nota3);
+
+// Declarando um structs
+struct aluno{
+    char nome[100];
+    float n1, n2, n3;
+
+    void mediaPonderada(){
+         float media = (n1 + n2*2 + n3*3) / 6;
+         if (media >= 9.0){
+             cout << "A média de " << nome << " é: " << media << ", sendo assim conceito: 'A'.";
+         } else if (media >= 7.5 && media < 9.0){
+             cout << "A sua média é: " << media << ", sendo assim conceito: 'B'.";
+         } else if (media >= 6.0 && media < 7.5){
+             cout << "A sua média é: " << media << ", sendo assim conceito: 'C'.";
+         } else if (media >= 4.0 && media < 6.0){
+             cout << "A sua média é: " << media << ", sendo assim conceito: 'D'.";
+         } else {
+             cout << "A sua média é: " << media << ", sendo assim conceito: 'E'.";
+         }
+    }
+};
+
 int main (){
+     int qtd;
+     int i = 0;
+     cout << "Deseja realizar a média ponderada de quantos alunos? ";
+     cin >> qtd;
+     aluno* al = new aluno[qtd];
 
-     char nome;
-     float nota1, nota2, nota3, mediaPonderada;
+     while (i < qtd) {
+          cout << "Por favor, informe o " << i+1 << "° nome do aluno: ";
+          //getline(cin, al[i].nome);
+          cin >> al[i].nome;
 
-     cout << "## CALCULANDO MÉDIA PONDERADA DE UM ALUNO ##\n\n";
+          cout << "Informe a primeira nota: ";
+          cin >> al[i].n1;
 
-     cout << "Por favor, informe o nome do aluno: \n";
-     cin >> nome;
+          cout << "Informe a segunda nota: ";
+          cin >> al[i].n2;
 
-     cout << "Informe a primeira nota do aluno: \n";
-     cin >> nota1;
+          cout << "Informe a terceira nota: ";
+          cin >> al[i].n3;
 
-     cout << "Informe a segunda nota do aluno: \n";
-     cin >> nota2;
+          al[i].mediaPonderada();
+          i++;
 
-     cout << "Informe a terceira nota do aluno: \n";
-     cin >> nota3;
-
-     mediaPonderada = (nota1 + nota2*2 + nota3*3) / 6;
-     cout << "Resultado: " << mediaPonderada << "\n";
-
+          cout << "\n# Próximo aluno... #" << endl;
+     }
+     cout << "\nFim...";
      return 0;
 }
