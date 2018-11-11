@@ -9,6 +9,7 @@ struct aluno{
     char nome[100];
     float n1, n2, n3;
 
+    // Função para calculo da media
     void mediaPonderada(){
          float media = (n1 + n2*2 + n3*3) / 6;
          if (media >= 9.0){
@@ -30,26 +31,26 @@ int main (){
      int i = 0;
      cout << "Deseja realizar a média ponderada de quantos alunos? ";
      cin >> qtd;
+     
      aluno* al = new aluno[qtd];
 
      while (i < qtd) {
           cout << "Por favor, informe o " << i+1 << "° nome do aluno: ";
-          //getline(cin, al[i].nome);
           cin >> al[i].nome;
 
-          cout << "Informe a primeira nota: ";
+          cout << "Informe a primeira nota (Formato 9.0): ";
           cin >> al[i].n1;
 
-          cout << "Informe a segunda nota: ";
+          cout << "Informe a segunda nota (Formato 9.0): ";
           cin >> al[i].n2;
 
-          cout << "Informe a terceira nota: ";
+          cout << "Informe a terceira nota (Formato 9.0): ";
           cin >> al[i].n3;
 
           al[i].mediaPonderada();
           i++;
 
-          cout << "\n# Próximo aluno... #" << endl;
+          cout << "\n\n" << endl;
      }
      cout << "\nFim...";
      return 0;

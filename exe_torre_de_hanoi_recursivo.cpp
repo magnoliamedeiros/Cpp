@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 // Assinatura do método
@@ -11,7 +12,7 @@ int main() {
      hanoi(4,1,2,3);
 }
 
-// Função recursiva
+// Função recursiva para calculo da torres de hanoi
 void hanoi(int n, int o, int a, int d){
      if (n > 0){ // Caso base
           hanoi(n-1, o, d, a);
