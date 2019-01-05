@@ -1,0 +1,147 @@
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:15:14: error: variable or field ‘inserir’ declared void
+ void inserir(hash* tabela[], int pos, int n){
+              ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:15:14: error: reference to ‘hash’ is ambiguous
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:9:8: note: candidates are: struct hash
+ struct hash
+        ^~~~
+In file included from /usr/include/c++/7/bits/basic_string.h:6578:0,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:1:
+/usr/include/c++/7/bits/functional_hash.h:58:12: note:                 template<class _Tp> struct std::hash
+     struct hash;
+            ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:15:20: error: ‘tabela’ was not declared in this scope
+ void inserir(hash* tabela[], int pos, int n){
+                    ^~~~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:15:27: error: expected primary-expression before ‘]’ token
+ void inserir(hash* tabela[], int pos, int n){
+                           ^
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:15:30: error: expected primary-expression before ‘int’
+ void inserir(hash* tabela[], int pos, int n){
+                              ^~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:15:39: error: expected primary-expression before ‘int’
+ void inserir(hash* tabela[], int pos, int n){
+                                       ^~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:27:20: error: variable or field ‘mostrar_hash’ declared void
+ void mostrar_hash (hash* tabela[]){
+                    ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:27:20: error: reference to ‘hash’ is ambiguous
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:9:8: note: candidates are: struct hash
+ struct hash
+        ^~~~
+In file included from /usr/include/c++/7/bits/basic_string.h:6578:0,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:1:
+/usr/include/c++/7/bits/functional_hash.h:58:12: note:                 template<class _Tp> struct std::hash
+     struct hash;
+            ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:27:26: error: ‘tabela’ was not declared in this scope
+ void mostrar_hash (hash* tabela[]){
+                          ^~~~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:27:33: error: expected primary-expression before ‘]’ token
+ void mostrar_hash (hash* tabela[]){
+                                 ^
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:38:19: error: reference to ‘hash’ is ambiguous
+ int excluir_hash (hash* tabela[], int num){
+                   ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:9:8: note: candidates are: struct hash
+ struct hash
+        ^~~~
+In file included from /usr/include/c++/7/bits/basic_string.h:6578:0,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:1:
+/usr/include/c++/7/bits/functional_hash.h:58:12: note:                 template<class _Tp> struct std::hash
+     struct hash;
+            ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:38:25: error: ‘tabela’ was not declared in this scope
+ int excluir_hash (hash* tabela[], int num){
+                         ^~~~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:38:32: error: expected primary-expression before ‘]’ token
+ int excluir_hash (hash* tabela[], int num){
+                                ^
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:38:35: error: expected primary-expression before ‘int’
+ int excluir_hash (hash* tabela[], int num){
+                                   ^~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:38:42: error: expression list treated as compound expression in initializer [-fpermissive]
+ int excluir_hash (hash* tabela[], int num){
+                                          ^
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp: In function ‘int main()’:
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:66:6: error: reference to ‘hash’ is ambiguous
+      hash* tabela[tam];
+      ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:9:8: note: candidates are: struct hash
+ struct hash
+        ^~~~
+In file included from /usr/include/c++/7/bits/basic_string.h:6578:0,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:1:
+/usr/include/c++/7/bits/functional_hash.h:58:12: note:                 template<class _Tp> struct std::hash
+     struct hash;
+            ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:66:12: error: ‘tabela’ was not declared in this scope
+      hash* tabela[tam];
+            ^~~~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:67:6: error: reference to ‘hash’ is ambiguous
+      hash* aux;
+      ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:9:8: note: candidates are: struct hash
+ struct hash
+        ^~~~
+In file included from /usr/include/c++/7/bits/basic_string.h:6578:0,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:1:
+/usr/include/c++/7/bits/functional_hash.h:58:12: note:                 template<class _Tp> struct std::hash
+     struct hash;
+            ^~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:67:12: error: ‘aux’ was not declared in this scope
+      hash* aux;
+            ^~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:93:26: error: ‘inserir’ was not declared in this scope
+                          inserir (tabela, pos, num);
+                          ^~~~~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:93:26: note: suggested alternative: ‘cuserid’
+                          inserir (tabela, pos, num);
+                          ^~~~~~~
+                          cuserid
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:96:26: error: ‘mostrar_hash’ was not declared in this scope
+                          mostrar_hash(tabela);
+                          ^~~~~~~~~~~~
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:96:26: note: suggested alternative: ‘excluir_hash’
+                          mostrar_hash(tabela);
+                          ^~~~~~~~~~~~
+                          excluir_hash
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:102:45: error: ‘excluir_hash’ cannot be used as a function
+                     excluir_hash(tabela, num);
+                                             ^
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:111:28: error: expected ‘)’ before ‘!’ token
+           while (tabela[i] ! NULL) {
+                            ^
+/home/magui/Documentos/Cpp-Git/t_hash_encadeada_divisao/hash_table.cpp:111:34: error: expected ‘;’ before ‘)’ token
+           while (tabela[i] ! NULL) {
+                                  ^

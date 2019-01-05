@@ -1,0 +1,12 @@
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp: In function ‘int main()’:
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:29:6: error: expected ‘;’ before ‘cout’
+      cout << "Digite um número a ser inserido na PILHA: ";
+      ^~~~
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:36:1: error: expected ‘while’ at end of input
+ }
+ ^
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:36:1: error: expected ‘(’ at end of input
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:36:1: error: expected primary-expression at end of input
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:36:1: error: expected ‘)’ at end of input
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:36:1: error: expected ‘;’ at end of input
+/home/magui/Documentos/Cpp-Git/pilha-exercicio/pilha.cpp:36:1: error: expected ‘}’ at end of input

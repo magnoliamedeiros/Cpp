@@ -1,5 +1,6 @@
-#include<iostream>
-//#include<conio.h>
+#include <iostream>
+#include <stdlib.h>
+#include <cstdio>
 
 using namespace std;
 
@@ -17,7 +18,8 @@ int main(){
      int op;
 
      do {
-     clrscr();
+     // clrscr();
+     system("cls");
      cout << "\n=== MENU DE OPÇÕES ===";
      cout << "\n1 - Inserir elemento na PILHA";
      cout << "\n2 - Consultar elementos da PILHA";

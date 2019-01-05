@@ -1,0 +1,23 @@
+/home/magui/Documentos/Cpp-Git/hash/main.cpp: In function ‘int main()’:
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:27:6: error: ‘hashtable’ was not declared in this scope
+      hashtable<pessoa> H(3);
+      ^~~~~~~~~
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:27:6: note: suggested alternative: ‘mutable’
+      hashtable<pessoa> H(3);
+      ^~~~~~~~~
+      mutable
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:27:22: error: expected primary-expression before ‘>’ token
+      hashtable<pessoa> H(3);
+                      ^
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:27:24: error: ‘H’ was not declared in this scope
+      hashtable<pessoa> H(3);
+                        ^
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:34:11: error: ‘l’ was not declared in this scope
+           l<pessoa>* x =H.T[i].head;
+           ^
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:34:19: error: expected primary-expression before ‘>’ token
+           l<pessoa>* x =H.T[i].head;
+                   ^
+/home/magui/Documentos/Cpp-Git/hash/main.cpp:34:22: error: ‘x’ was not declared in this scope
+           l<pessoa>* x =H.T[i].head;
+                      ^

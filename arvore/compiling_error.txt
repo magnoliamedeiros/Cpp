@@ -1,0 +1,69 @@
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:30: error: expected identifier before ‘&’ token
+      void insert(node<T>* x, &cont) {
+                              ^
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp: In function ‘int main()’:
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:13:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(5, 5));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:14:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(2, 2));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:15:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(1, 1));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:16:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(3, 3));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:17:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(4, 4));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:18:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(7, 7));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:19:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(6, 6));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided
+/home/magui/Documentos/Cpp-Git/arvore/main.cpp:20:34: error: no matching function for call to ‘bst<int>::insert(node<int>*)’
+      T.insert(new node<int>(9, 9));
+                                  ^
+In file included from /home/magui/Documentos/Cpp-Git/arvore/main.cpp:5:0:
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note: candidate: void bst<T>::insert(node<T>*, int&) [with T = int]
+      void insert(node<T>* x, &cont) {
+           ^~~~~~
+/home/magui/Documentos/Cpp-Git/arvore/bst.h:33:11: note:   candidate expects 2 arguments, 1 provided

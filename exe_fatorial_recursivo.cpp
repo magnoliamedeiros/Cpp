@@ -1,9 +1,8 @@
 #include <iostream>
+using namespace std;
 
 // Assinatura do método
 int fatorial(int n);
-
-using namespace std;
 
 int main() {
      cout << fatorial(5);
